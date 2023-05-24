@@ -1,0 +1,499 @@
+.board{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+
+.canvas{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    display: inline-block;
+}
+.leaderboard{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 1440px;
+    background-color: #656CEC;
+    margin-bottom: 2px;
+}
+
+.leaderboard1{
+    margin-top: 5px;
+    margin-bottom: 24px;
+    padding: 0px;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+    color: white;
+}
+
+.top_three{
+    height: 350px;
+    width: 1440px;
+    border-radius: 0px 0px 64px 64px;
+    background-color: #656CEC;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.joe, .jenny, .josh, .stella{
+    height: 100px;
+    width: 1440px;
+    background-color: #D2D4F2;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sally{
+    height: 100px;
+    width: 1440px;
+    background-color: #D2D4F2;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.amanda{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.jefferey{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.jeremy{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.rank2{
+    margin-left: 406px;
+    background-color: #BABEFF;
+    margin-top: 69px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+    font: inter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.photoborder2{
+    margin-left: 338px;
+    background-color: white;
+    width: 172px;
+    height: 172px;
+    border-radius: 86px;
+    margin-top: 10px;
+    display: flex;    
+}
+
+.photo2{
+    margin-left: 6px;
+    background-color: #BABEFF;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    margin-top: 6px;
+}
+
+.name2{
+    margin-left: 346px;
+    padding-right: 0px;
+    margin-top: 10px;
+    background-color:#BABEFF;
+    font-size: 24px;
+    width: 160px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    border-radius: 9px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rank3{
+    margin-left: 65px;
+    background-color: #BABEFF;
+    margin-top: 69px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.photoborder3{
+    margin-right: 338px;
+    background-color: white;
+    width: 172px;
+    height: 172px;
+    border-radius: 86px;
+    margin-top: 10px;
+    display: flex;    
+}
+
+.photo3{
+    margin-left: 6px;
+    background-color: #BABEFF;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    margin-top: 6px;
+}
+
+.name3{
+    margin-right: 346px;
+    padding-right: 0px;
+    margin-top: 10px;
+    background-color:#BABEFF;
+    font-size: 24px;
+    width: 160px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    border-radius: 9px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.rank1{
+    margin-left: 172px;
+    background-color: #BABEFF;
+    margin-top: 7px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.photoborder1{
+    margin-left: 79px;
+    background-color: white;
+    width: 222px;
+    height: 222px;
+    border-radius: 111px;
+    margin-top: 10px;
+    display: flex;    
+}
+
+.photo1{
+    margin-left: 6px;
+    background-color: #BABEFF;
+    width: 210px;
+    height: 210px;
+    border-radius: 105px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+.name1{
+    margin-left: 95px;
+    padding-right: 0px;
+    margin-top: 10px;
+    background-color:#BABEFF;
+    font-size: 28px;
+    width: 190px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    border-radius: 9px;
+    margin-bottom: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rank4{
+    margin-left: 44px;
+    font-size: 32px;
+    margin-top: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.photoborder4{
+    margin-left: 65px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.photo4{
+    margin-left: 4px;
+    background-color: #BABEFF;
+    width: 72px;
+    height: 72px;
+    border-radius: 36px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+.name4{
+    margin-left: 50px;
+    padding-right: 0px;
+    margin-top: 34px;
+    background-color:#D2D4F2;
+    font-size: 32px;
+    width: 170px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.score4{
+    margin-left: 700px;
+    padding-right: 0px;
+    margin-top: 34px;
+    background-color:#D2D4F2;
+    font-size: 32px;
+    width: 170px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rank5{
+    margin-left: 44px;
+    font-size: 32px;
+    margin-top: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.photoborder5{
+    margin-left: 65px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.photo5{
+    margin-left: 4px;
+    background-color: #BABEFF;
+    width: 72px;
+    height: 72px;
+    border-radius: 36px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+.name5{
+    margin-left: 50px;
+    padding-right: 0px;
+    margin-top: 34px;
+    background-color:#D2D4F2;
+    font-size: 32px;
+    width: 170px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.score5{
+    margin-left: 700px;
+    padding-right: 0px;
+    margin-top: 34px;
+    background-color:#D2D4F2;
+    font-size: 32px;
+    width: 170px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rank6{
+    margin-left: 44px;
+    font-size: 32px;
+    margin-top: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.photoborder6{
+    margin-left: 65px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.photo6{
+    margin-left: 4px;
+    background-color: #BABEFF;
+    width: 72px;
+    height: 72px;
+    border-radius: 36px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+.name6{
+    margin-left: 50px;
+    padding-right: 0px;
+    margin-top: 34px;
+    background-color:#D2D4F2;
+    font-size: 32px;
+    width: 170px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.score6{
+    margin-left: 700px;
+    padding-right: 0px;
+    margin-top: 34px;
+    background-color:#D2D4F2;
+    font-size: 32px;
+    width: 170px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rank7{
+    margin-left: 44px;
+    font-size: 32px;
+    margin-top: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.photoborder7{
+    margin-left: 65px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.photo7{
+    margin-left: 4px;
+    background-color: #BABEFF;
+    width: 72px;
+    height: 72px;
+    border-radius: 36px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+.name7{
+    margin-left: 50px;
+    padding-right: 0px;
+    margin-top: 34px;
+    background-color:#D2D4F2;
+    font-size: 32px;
+    width: 170px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.score7{
+    margin-left: 700px;
+    padding-right: 0px;
+    margin-top: 34px;
+    background-color:#D2D4F2;
+    font-size: 32px;
+    width: 170px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rank8{
+    margin-left: 44px;
+    font-size: 32px;
+    margin-top: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.photoborder8{
+    margin-left: 65px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.photo8{
+    margin-left: 4px;
+    background-color: #BABEFF;
+    width: 72px;
+    height: 72px;
+    border-radius: 36px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+.name8{
+    margin-left: 50px;
+    padding-right: 0px;
+    margin-top: 34px;
+    background-color:#D2D4F2;
+    font-size: 32px;
+    width: 170px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.score8{
+    margin-left: 700px;
+    padding-right: 0px;
+    margin-top: 34px;
+    background-color:#D2D4F2;
+    font-size: 32px;
+    width: 170px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
